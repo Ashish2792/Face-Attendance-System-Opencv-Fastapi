@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+env/
+venv/
+ml-gpu/
+.conda/
+
+# OS files
+.DS_Store
+
+# Sensitive / generated files
+encodings_v2.pickle
+attendance_v2.csv
+attendance_export.xlsx
+
+# IDE
+.vscode/
+.idea/
