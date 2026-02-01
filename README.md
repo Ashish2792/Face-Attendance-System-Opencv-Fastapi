@@ -45,19 +45,21 @@ A real-time face recognition based attendance system using OpenCV and face_recog
 ## ▶️ How to Run
 
 ### 1️⃣ Install dependencies
-```bash
+'''bash
 pip install -r requirements.txt
----
+'''
 ### 2️⃣ Register a user
-
+'''bash
 python face_attendance.py --mode register --name Ashish --id 1234
-
+'''
 ### 3️⃣ Start recognition
+'''bash
 python face_attendance.py --mode recognize
-
+'''
 #### 4️⃣ Start live API
+'''bash
 uvicorn api:app --reload
-
+'''
 ## 🌐 API Endpoints
 
 /attendance → Full attendance log
